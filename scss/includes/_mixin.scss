@@ -1,0 +1,8 @@
+@mixin shadow($color, $procent) {
+	box-shadow: 3px 6px 6px darken($color, $procent) inset;
+	transition: 0.09s linear;
+}
+@mixin shadow-light($color, $procent) {
+	box-shadow: 0px -2px 4px 3px lighten($color, $procent);
+	transition: 0.09s linear;
+}

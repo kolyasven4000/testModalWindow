@@ -1,0 +1,48 @@
+@font-face {
+	font-family: GothaProBold;
+	src: url(../fonts/GothaProBold.otf); 
+
+}
+@font-face{
+	font-family: GothaProBlack;
+	src: url(../fonts/GothaProBlack.otf); 
+}
+@font-face {
+	font-family: MyriadPro-Bold;
+	src: url(../fonts/MyriadPro-Bold.otf); 
+
+}
+@font-face{
+	font-family: MyriadPro-Regular;
+	src: url(../fonts/MyriadPro-Regular.otf); 
+}
+@font-face{
+	font-family: MyriadPro-Semibold;
+	src: url(../fonts/MyriadPro-Semibold.otf); 
+}
+html, body, #wrapper {
+	height: 100%;
+}
+body {
+	width: 100%;
+	
+	margin: 0px;
+	padding: 0px;	
+	
+	text-transform: uppercase;
+
+}
+
+#wrapper {
+	outline: 2px solid red;
+	position: relative;
+	height: 100%;
+	
+	background: rgba(0, 0, 0, 0.5);
+}
+input {
+	display:none;
+}
+img {
+	vertical-align: bottom;
+}
