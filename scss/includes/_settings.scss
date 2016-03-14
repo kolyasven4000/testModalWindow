@@ -1,0 +1,78 @@
+/*main-colors ----------*/
+
+$white : #ffffff;
+$black: #000;
+$gray : #838d8f;
+$body-bg: #eaeaea;
+$arrow-color-gray: #cccccc;
+
+/*circle-colors ==============================*/
+$circle-blue : #1476f1;
+$circle-green :#82d889;
+$circle-dark-blue :#3c3d41;
+$circle-gray: $gray;
+$circle-aqua: #b8c6c7;
+$circle-orange: #ce954a;
+$circle-lilac: #7b7f91;
+$circle-dark-gray: #777777;
+$circle-light-lilac: #bdbdbd;
+$circle-light-gray: #eeeeee;
+
+$main-font-color: #3c3d41;
+$Montserrat: 'Montserrat', sans-serif;
+$PTSerif: 'PT Serif', sans-serif;
+
+
+$font-weight-regular: normal;
+$font-weight-bold: bold;
+$font-weight-light: 300;
+
+
+/*----shop form */
+$shop-form-font-size: 11px;
+$shop-form-font-weight: $font-weight-bold;
+$shop-form-line-height: 13px;
+$shop-form-letter-spacing: 2px;
+
+$sub-menu-font-size: 13px;
+$sub-menu-font-weight: $font-weight-regular;
+$sub-menu-font-color: #daddde;
+$sub-menu-line-height: 24px;
+$sub-menu-letter-spacing: 0;
+
+$sub-menu-bg-color: $gray;
+
+
+$input-font-size: 13px;
+$input-line-height:21px;
+$input-font-color: #878787;
+
+
+
+/*shop item=============================== */
+$name-font-size: 15px;
+$name-line-height: 18px;
+$name-font-weight: $font-weight-bold;
+
+$description-font-family: $PTSerif;
+$description-font-size: 12px;
+$description-font-weight: $font-weight-regular;
+$descriptiom-font-color: #838c8e;
+
+$price-font-family: $PTSerif;
+$price-font-size: 13px;
+$price-line-height: 13px;
+$price-font-weight: $font-weight-regular;
+$price-font-color: #393d3f;
+
+$new-background: #84ce8b;
+$new-font-size: 10px;
+
+
+/*button */
+$btn-font-family: $Montserrat;
+$btn-font-size: 15px;
+$btn-line-height: 18px;
+$btn-font-weight: $font-weight-bold;
+
+$btn-bg-color: #b8c6c7;

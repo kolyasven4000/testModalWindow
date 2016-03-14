@@ -1,48 +1,46 @@
-@font-face {
-	font-family: GothaProBold;
-	src: url(../fonts/GothaProBold.otf); 
 
-}
-@font-face{
-	font-family: GothaProBlack;
-	src: url(../fonts/GothaProBlack.otf); 
-}
-@font-face {
-	font-family: MyriadPro-Bold;
-	src: url(../fonts/MyriadPro-Bold.otf); 
-
-}
-@font-face{
-	font-family: MyriadPro-Regular;
-	src: url(../fonts/MyriadPro-Regular.otf); 
-}
-@font-face{
-	font-family: MyriadPro-Semibold;
-	src: url(../fonts/MyriadPro-Semibold.otf); 
-}
 html, body, #wrapper {
 	height: 100%;
 }
 body {
 	width: 100%;
-	
-	margin: 0px;
-	padding: 0px;	
-	
-	text-transform: uppercase;
-
+	font-family: $Montserrat;
+	color: $main-font-color;
+		
+	background: $body-bg;
 }
 
-#wrapper {
-	outline: 2px solid red;
+.shop-wrapper {
 	position: relative;
-	height: 100%;
-	
-	background: rgba(0, 0, 0, 0.5);
+	width: 980px;
+	margin:0 auto;
+	padding: 50px  110px 80px;
 }
-input {
-	display:none;
+.shop-form, .shop-catalog {
+ float: left;
+ 
 }
+.shop-form {
+	width: 230px;
+	font-size: $shop-form-font-size;
+	font-weight: $shop-form-font-weight;
+	line-height: $shop-form-line-height;
+
+	letter-spacing: $shop-form-letter-spacing;
+	text-transform: uppercase;
+}
+.shop-catalog {
+	width: 730px;
+}
+
+.container {
+	padding: 0 20px;
+}
+.clearfix::after {
+	display: table;
+	content: "";
+	clear: both;
+}	
 img {
 	vertical-align: bottom;
 }
